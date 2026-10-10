@@ -1,0 +1,22 @@
+[debug] [2026-10-10T16:24:56.504Z] ----------------------------------------------------------------------
+[debug] [2026-10-10T16:24:56.505Z] Command:       /Users/neuroxes/.nvm/versions/node/v24.14.0/bin/node /Users/neuroxes/.nvm/versions/node/v24.14.0/bin/firebase projects:create water-sort-puzzle-game --display-name Water Sort
+[debug] [2026-10-10T16:24:56.506Z] CLI Version:   15.16.0
+[debug] [2026-10-10T16:24:56.506Z] Platform:      darwin
+[debug] [2026-10-10T16:24:56.506Z] Node Version:  v24.14.0
+[debug] [2026-10-10T16:24:56.506Z] Time:          Sat Oct 10 2026 21:24:56 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-10-10T16:24:56.506Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-10-10T16:24:56.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-10-10T16:24:56.509Z] > authorizing via signed-in user (fawad.hanif24@gmail.com)
+[debug] [2026-10-10T16:24:56.510Z] Checked if tokens are valid: true, expires at: 1791652444412
+[debug] [2026-10-10T16:24:56.510Z] Checked if tokens are valid: true, expires at: 1791652444412
+[debug] [2026-10-10T16:24:56.511Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-10-10T16:24:56.511Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"water-sort-puzzle-game","name":"Water Sort"}
+[debug] [2026-10-10T16:24:59.361Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2026-10-10T16:24:59.362Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2026-10-10T16:25:04.366Z] Error: Timed out.
+    at Timeout._onTimeout (/Users/neuroxes/.nvm/versions/node/v24.14.0/lib/node_modules/firebase-tools/lib/utils.js:309:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.
